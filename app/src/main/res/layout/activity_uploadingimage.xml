@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".uploadingimage">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView"
+        android:layout_weight="9"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btncamera"
+        android:background="@android:color/holo_orange_dark"
+        android:text="open camera"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+</LinearLayout>
